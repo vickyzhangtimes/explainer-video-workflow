@@ -1,0 +1,18 @@
+{
+  "name": "explainer-video-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "A reviewable narration-led video workflow with a shared timeline and Remotion recipes",
+  "scripts": {
+    "prepare-demo": "python scripts/timeline.py examples/edit.json src/timeline.json",
+    "check": "tsc --noEmit",
+    "test": "python -m unittest discover -s scripts -p test_*.py -v",
+    "studio": "remotion studio src/index.tsx",
+    "render": "remotion render src/index.tsx Explainer out/demo.mp4 --concurrency=2",
+    "cover": "remotion still src/index.tsx Cover out/cover.png",
+    "audit": "python scripts/release_audit.py"
+  },
+  "dependencies": {"@remotion/cli":"4.0.526","remotion":"4.0.526","react":"19.2.3","react-dom":"19.2.3"},
+  "devDependencies": {"@types/react":"19.2.7","typescript":"5.9.3"}
+}

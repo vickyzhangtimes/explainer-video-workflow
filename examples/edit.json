@@ -1,0 +1,6 @@
+{
+  "fps":30,"source_frames":540,
+  "clips":[{"id":"intro","source_start":0,"duration":180},{"id":"steps","source_start":180,"duration":180},{"id":"result","source_start":360,"duration":180}],
+  "captions":[{"start":0,"end":90,"text":"先讲清楚，你想帮谁解决什么问题。"},{"start":90,"end":180,"text":"一条主音轨，带动画面和字幕。"},{"start":180,"end":270,"text":"锁定声音，再安排步骤和演示。"},{"start":270,"end":360,"text":"人物按需出现，内容始终清楚。"},{"start":360,"end":450,"text":"只改动画，已经确认的声音继续用。"},{"start":450,"end":540,"text":"检查后保存模板，下一条接着做。"}],
+  "avatars":[]
+}

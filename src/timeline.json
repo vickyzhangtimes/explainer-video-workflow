@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "fps": 30,
+  "duration": 540,
+  "clips": [
+    {
+      "id": "intro",
+      "source_start": 0,
+      "duration": 180,
+      "output_start": 0
+    },
+    {
+      "id": "steps",
+      "source_start": 180,
+      "duration": 180,
+      "output_start": 180
+    },
+    {
+      "id": "result",
+      "source_start": 360,
+      "duration": 180,
+      "output_start": 360
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 90,
+      "text": "先讲清楚，你想帮谁解决什么问题。",
+      "source_start": 0,
+      "clip_id": "intro"
+    },
+    {
+      "start": 90,
+      "end": 180,
+      "text": "一条主音轨，带动画面和字幕。",
+      "source_start": 90,
+      "clip_id": "intro"
+    },
+    {
+      "start": 180,
+      "end": 270,
+      "text": "锁定声音，再安排步骤和演示。",
+      "source_start": 180,
+      "clip_id": "steps"
+    },
+    {
+      "start": 270,
+      "end": 360,
+      "text": "人物按需出现，内容始终清楚。",
+      "source_start": 270,
+      "clip_id": "steps"
+    },
+    {
+      "start": 360,
+      "end": 450,
+      "text": "只改动画，已经确认的声音继续用。",
+      "source_start": 360,
+      "clip_id": "result"
+    },
+    {
+      "start": 450,
+      "end": 540,
+      "text": "检查后保存模板，下一条接着做。",
+      "source_start": 450,
+      "clip_id": "result"
+    }
+  ],
+  "avatars": []
+}

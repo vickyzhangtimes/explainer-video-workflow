@@ -1,0 +1,10 @@
+{
+ "title":"让讲解，更好看","subtitle":"声音 · 人物 · 字幕 · 动画",
+ "narration":null,"soundEffects":[],
+ "theme":{"background":"#F4EEFC","surface":"#FFFFFF","ink":"#291342","primary":"#753EC8","accent":"#19ABA2"},
+ "scenes":[
+  {"start":0,"end":180,"kind":"merge","title":"把想法，做成视频","items":["照片","配音","讲解视频"],"cues":[12,46,100]},
+  {"start":180,"end":360,"kind":"steps","title":"听到哪步，就看到哪步","items":["确认声音","安排画面","检查输出"],"cues":[8,62,112]},
+  {"start":360,"end":540,"kind":"retain","title":"只改需要修改的部分","items":["声音保留","人物保留","优化动画"],"cues":[8,35,75]}
+ ]
+}
